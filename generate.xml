@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.b-qiao.pers.lab.rest</groupId>
+    <artifactId>ringcentral-engage-digital-client</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <openapi-generator-maven-plugin.version>6.3.0</openapi-generator-maven-plugin.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.openapitools</groupId>
+                <artifactId>openapi-generator-maven-plugin</artifactId>
+                <!-- RELEASE_VERSION -->
+                <version>${openapi-generator-maven-plugin.version}</version>
+                <!-- /RELEASE_VERSION -->
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <inputSpec>${project.basedir}/engage-digital_openapi3.yaml</inputSpec>
+                            <generatorName>java</generatorName>
+                            <apiPackage>io.github.b-qiao.pers.lab.rest.ringcentral-engage-digital-client.api</apiPackage>
+                            <invokerPackage>io.github.b-qiao.pers.lab.rest.ringcentral-engage-digital-client.handler</invokerPackage>
+                            <modelPackage>io.github.b-qiao.pers.lab.rest.ringcentral-engage-digital-client.model</modelPackage>
+                            <skipValidateSpec>false</skipValidateSpec>
+                            <library>native</library>
+                            <groupId>${project.groupId}</groupId>
+                            <artifactId>${project.artifactId}</artifactId>
+                            <artifactVersion>${project.version}</artifactVersion>
+                            <configOptions>
+                                <sourceFolder>src/main/java</sourceFolder>
+                                <serializableModel>true</serializableModel>
+                                <serializationLibrary>jsonb</serializationLibrary>
+                                <dateLibrary>java8</dateLibrary>
+                                <developerEmail>3427599+b-q@users.noreply.github.com</developerEmail>
+                                <developerName>b-qiao</developerName>
+                                <developerOrganization>b-qiao.github.io</developerOrganization>
+                                <developerOrganizationUrl>b-qiao.com</developerOrganizationUrl>
+                                <licenseName>GPL3</licenseName>
+                                <licenseUrl>https://choosealicense.com/licenses/gpl-3.0/</licenseUrl>
+                                <scmConnection>scm:git:git@github.com:b-q/ringcentral-engage-digital-client.git</scmConnection>
+                                <scmDeveloperConnection>scm:git:git@github.com:b-q/ringcentral-engage-digital-client.git</scmDeveloperConnection>
+                                <scmUrl>https://github.com/b-q/ringcentral-engage-digital-client.git</scmUrl>
+                                <artifactUrl>https://github.com/b-q/ringcentral-engage-digital-client</artifactUrl>
+                                <artifactDescription>RingCentral Engage Digital Java Rest Client Generated From Openapi Description</artifactDescription>
+                            </configOptions>
+                            <library>jersey2</library>
+                            <output>${project.basedir}</output>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
