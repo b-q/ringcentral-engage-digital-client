@@ -36,7 +36,7 @@ import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.handler.
   CreateAttachmentRequest.JSON_PROPERTY_PRIVATE
 })
 @JsonTypeName("createAttachment_request")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-03-13T22:37:55.741968+01:00[Europe/Paris]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-08-28T22:45:26.654875700+02:00[Europe/Paris]")
 public class CreateAttachmentRequest implements Serializable {
   private static final long serialVersionUID = 1L;
 
@@ -93,7 +93,7 @@ public class CreateAttachmentRequest implements Serializable {
    * Get _file
    * @return _file
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FILE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -118,7 +118,7 @@ public class CreateAttachmentRequest implements Serializable {
    * Get _private
    * @return _private
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRIVATE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

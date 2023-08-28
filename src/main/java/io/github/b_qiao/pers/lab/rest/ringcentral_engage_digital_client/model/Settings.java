@@ -78,7 +78,7 @@ import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.handler.
   Settings.JSON_PROPERTY_URGENT_TASK_THRESHOLD,
   Settings.JSON_PROPERTY_USE_TWO_LETTERS_AVATARS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-03-13T22:37:55.741968+01:00[Europe/Paris]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-08-28T22:45:26.654875700+02:00[Europe/Paris]")
 public class Settings implements Serializable {
   private static final long serialVersionUID = 1L;
 
@@ -223,7 +223,7 @@ public class Settings implements Serializable {
    * Get activityPresenceThreshold
    * @return activityPresenceThreshold
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVITY_PRESENCE_THRESHOLD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -248,7 +248,7 @@ public class Settings implements Serializable {
    * Get activityTracking
    * @return activityTracking
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVITY_TRACKING)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -273,7 +273,7 @@ public class Settings implements Serializable {
    * Get beginningOfWeek
    * @return beginningOfWeek
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BEGINNING_OF_WEEK)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -298,7 +298,7 @@ public class Settings implements Serializable {
    * Get browserNotificationsDisabled
    * @return browserNotificationsDisabled
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BROWSER_NOTIFICATIONS_DISABLED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -331,7 +331,7 @@ public class Settings implements Serializable {
    * Get contentLanguages
    * @return contentLanguages
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CONTENT_LANGUAGES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -356,7 +356,7 @@ public class Settings implements Serializable {
    * Get createdAt
    * @return createdAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -381,7 +381,7 @@ public class Settings implements Serializable {
    * Get denyIframeIntegration
    * @return denyIframeIntegration
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DENY_IFRAME_INTEGRATION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -406,7 +406,7 @@ public class Settings implements Serializable {
    * Get disablePasswordAutocomplete
    * @return disablePasswordAutocomplete
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DISABLE_PASSWORD_AUTOCOMPLETE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -431,7 +431,7 @@ public class Settings implements Serializable {
    * Get displayOnlyUnknownBbcode
    * @return displayOnlyUnknownBbcode
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DISPLAY_ONLY_UNKNOWN_BBCODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -456,7 +456,7 @@ public class Settings implements Serializable {
    * Get dumpInPreprod
    * @return dumpInPreprod
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DUMP_IN_PREPROD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -481,7 +481,7 @@ public class Settings implements Serializable {
    * Get enableAutoScrollDown
    * @return enableAutoScrollDown
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ENABLE_AUTO_SCROLL_DOWN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -506,7 +506,7 @@ public class Settings implements Serializable {
    * Get expirePasswordAfter
    * @return expirePasswordAfter
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_EXPIRE_PASSWORD_AFTER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -531,7 +531,7 @@ public class Settings implements Serializable {
    * Get expirePasswordEnabled
    * @return expirePasswordEnabled
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_EXPIRE_PASSWORD_ENABLED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -556,7 +556,7 @@ public class Settings implements Serializable {
    * Get fteDuration
    * @return fteDuration
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FTE_DURATION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -581,7 +581,7 @@ public class Settings implements Serializable {
    * Get id
    * @return id
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -606,7 +606,7 @@ public class Settings implements Serializable {
    * Get identityMerge
    * @return identityMerge
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IDENTITY_MERGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -631,7 +631,7 @@ public class Settings implements Serializable {
    * Get interventionClosingPeriod
    * @return interventionClosingPeriod
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_INTERVENTION_CLOSING_PERIOD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -664,7 +664,7 @@ public class Settings implements Serializable {
    * Get interventionDeferRates
    * @return interventionDeferRates
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_INTERVENTION_DEFER_RATES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -689,7 +689,7 @@ public class Settings implements Serializable {
    * Get interventionDeferThreshold
    * @return interventionDeferThreshold
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_INTERVENTION_DEFER_THRESHOLD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -722,7 +722,7 @@ public class Settings implements Serializable {
    * Get interventionRates
    * @return interventionRates
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_INTERVENTION_RATES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -747,7 +747,7 @@ public class Settings implements Serializable {
    * Get locale
    * @return locale
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LOCALE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -772,7 +772,7 @@ public class Settings implements Serializable {
    * Get multiLang
    * @return multiLang
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MULTI_LANG)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -797,7 +797,7 @@ public class Settings implements Serializable {
    * Get name
    * @return name
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -822,7 +822,7 @@ public class Settings implements Serializable {
    * Get passwordArchivableEnabled
    * @return passwordArchivableEnabled
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PASSWORD_ARCHIVABLE_ENABLED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -847,7 +847,7 @@ public class Settings implements Serializable {
    * Get passwordArchivableSize
    * @return passwordArchivableSize
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PASSWORD_ARCHIVABLE_SIZE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -872,7 +872,7 @@ public class Settings implements Serializable {
    * Get passwordMinLength
    * @return passwordMinLength
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PASSWORD_MIN_LENGTH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -897,7 +897,7 @@ public class Settings implements Serializable {
    * Get passwordNonWord
    * @return passwordNonWord
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PASSWORD_NON_WORD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -922,7 +922,7 @@ public class Settings implements Serializable {
    * Get passwordNumbers
    * @return passwordNumbers
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PASSWORD_NUMBERS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -947,7 +947,7 @@ public class Settings implements Serializable {
    * Get passwordRecoveryDisabled
    * @return passwordRecoveryDisabled
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PASSWORD_RECOVERY_DISABLED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -972,7 +972,7 @@ public class Settings implements Serializable {
    * Get pushEnabled
    * @return pushEnabled
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PUSH_ENABLED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -997,7 +997,7 @@ public class Settings implements Serializable {
    * Get replyAsAnyIdentity
    * @return replyAsAnyIdentity
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_REPLY_AS_ANY_IDENTITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1022,7 +1022,7 @@ public class Settings implements Serializable {
    * Get rtlSupport
    * @return rtlSupport
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RTL_SUPPORT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1047,7 +1047,7 @@ public class Settings implements Serializable {
    * Get selfApprovalRequired
    * @return selfApprovalRequired
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SELF_APPROVAL_REQUIRED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1072,7 +1072,7 @@ public class Settings implements Serializable {
    * Get sessionTimeout
    * @return sessionTimeout
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SESSION_TIMEOUT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1097,7 +1097,7 @@ public class Settings implements Serializable {
    * Get shardingKey
    * @return shardingKey
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SHARDING_KEY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1122,7 +1122,7 @@ public class Settings implements Serializable {
    * Get spellchecking
    * @return spellchecking
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SPELLCHECKING)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1147,7 +1147,7 @@ public class Settings implements Serializable {
    * Get style
    * @return style
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STYLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1172,7 +1172,7 @@ public class Settings implements Serializable {
    * Get thirdPartyServicesDisabled
    * @return thirdPartyServicesDisabled
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_THIRD_PARTY_SERVICES_DISABLED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1197,7 +1197,7 @@ public class Settings implements Serializable {
    * Get timezone
    * @return timezone
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TIMEZONE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1222,7 +1222,7 @@ public class Settings implements Serializable {
    * Get type
    * @return type
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1247,7 +1247,7 @@ public class Settings implements Serializable {
    * Get updatedAt
    * @return updatedAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1272,7 +1272,7 @@ public class Settings implements Serializable {
    * Get urgentTaskThreshold
    * @return urgentTaskThreshold
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_URGENT_TASK_THRESHOLD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1297,7 +1297,7 @@ public class Settings implements Serializable {
    * Get useTwoLettersAvatars
    * @return useTwoLettersAvatars
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_USE_TWO_LETTERS_AVATARS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

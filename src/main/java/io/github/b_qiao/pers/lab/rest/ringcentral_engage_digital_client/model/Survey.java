@@ -52,7 +52,7 @@ import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.handler.
   Survey.JSON_PROPERTY_TYPE,
   Survey.JSON_PROPERTY_QUESTIONS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-03-13T22:37:55.741968+01:00[Europe/Paris]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-08-28T22:45:26.654875700+02:00[Europe/Paris]")
 public class Survey implements Serializable {
   private static final long serialVersionUID = 1L;
 
@@ -146,7 +146,7 @@ public class Survey implements Serializable {
    * Get id
    * @return id
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -171,7 +171,7 @@ public class Survey implements Serializable {
    * Get createdAt
    * @return createdAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -196,7 +196,7 @@ public class Survey implements Serializable {
    * Get updatedAt
    * @return updatedAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -221,7 +221,7 @@ public class Survey implements Serializable {
    * Name displayed in ED admin interface. Is not displayed to end users.
    * @return name
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -246,7 +246,7 @@ public class Survey implements Serializable {
    * Link to the survey on the provider website.
    * @return link
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LINK)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -271,7 +271,7 @@ public class Survey implements Serializable {
    * Get active
    * @return active
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -296,7 +296,7 @@ public class Survey implements Serializable {
    * Name displayed as sender when survey is sent to end user. Currently only applies to surveys sent by email.
    * @return fromName
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FROM_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -321,7 +321,7 @@ public class Survey implements Serializable {
    * Any intervention whose duration is shorter than this value (in seconds) will have the survey sent instantly.
    * @return instantSendThreshold
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_INSTANT_SEND_THRESHOLD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -346,7 +346,7 @@ public class Survey implements Serializable {
    * If last message from end user is older than this duration (in seconds), no survey will be sent.
    * @return maxTimeSinceLastReply
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MAX_TIME_SINCE_LAST_REPLY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -371,7 +371,7 @@ public class Survey implements Serializable {
    * Delay before sending survey to end users.
    * @return sendDelay
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SEND_DELAY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -404,7 +404,7 @@ public class Survey implements Serializable {
    * Get categoryIds
    * @return categoryIds
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CATEGORY_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -437,7 +437,7 @@ public class Survey implements Serializable {
    * Get teamIds
    * @return teamIds
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TEAM_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -470,7 +470,7 @@ public class Survey implements Serializable {
    * Get sourceIds
    * @return sourceIds
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SOURCE_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -495,7 +495,7 @@ public class Survey implements Serializable {
    * Contains the information of the survey provider used. Currently, only provider supported is alchemer.
    * @return type
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -528,7 +528,7 @@ public class Survey implements Serializable {
    * Fetched from survey provider. List of questions asked in this survey.
    * @return questions
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_QUESTIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

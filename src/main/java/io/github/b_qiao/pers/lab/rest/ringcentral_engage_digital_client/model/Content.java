@@ -72,7 +72,7 @@ import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.handler.
   Content.JSON_PROPERTY_UPDATED_AT,
   Content.JSON_PROPERTY_CAPABILITIES_SUPPORTED
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-03-13T22:37:55.741968+01:00[Europe/Paris]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-08-28T22:45:26.654875700+02:00[Europe/Paris]")
 public class Content implements Serializable {
   private static final long serialVersionUID = 1L;
 
@@ -228,7 +228,7 @@ public class Content implements Serializable {
    * Get approvalRequired
    * @return approvalRequired
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_APPROVAL_REQUIRED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -261,7 +261,7 @@ public class Content implements Serializable {
    * Get attachments
    * @return attachments
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ATTACHMENTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -286,7 +286,7 @@ public class Content implements Serializable {
    * Get attachmentsCount
    * @return attachmentsCount
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ATTACHMENTS_COUNT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -311,7 +311,7 @@ public class Content implements Serializable {
    * Get authorId
    * @return authorId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AUTHOR_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -336,7 +336,7 @@ public class Content implements Serializable {
    * Get autoSubmitted
    * @return autoSubmitted
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AUTO_SUBMITTED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -361,7 +361,7 @@ public class Content implements Serializable {
    * Get body
    * @return body
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BODY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -386,7 +386,7 @@ public class Content implements Serializable {
    * Get bodyFormatted
    * @return bodyFormatted
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BODY_FORMATTED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -411,7 +411,7 @@ public class Content implements Serializable {
    * values can be: text or html.
    * @return bodyInputFormat
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_BODY_INPUT_FORMAT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -444,7 +444,7 @@ public class Content implements Serializable {
    * are content categories if none, they are default to intervention categories or thread categories
    * @return categoryIds
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CATEGORY_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -469,7 +469,7 @@ public class Content implements Serializable {
    * is present only if the content has context_data associated. The context_data hash keys are the custom fields keys.
    * @return contextData
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CONTEXT_DATA)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -494,7 +494,7 @@ public class Content implements Serializable {
    * Get createdAt
    * @return createdAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -519,7 +519,7 @@ public class Content implements Serializable {
    * Get createdFrom
    * @return createdFrom
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CREATED_FROM)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -544,7 +544,7 @@ public class Content implements Serializable {
    * Get creatorId
    * @return creatorId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CREATOR_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -577,7 +577,7 @@ public class Content implements Serializable {
    * is present only if the content has foreign_categories.
    * @return foreignCategories
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FOREIGN_CATEGORIES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -602,7 +602,7 @@ public class Content implements Serializable {
    * Get foreignId
    * @return foreignId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FOREIGN_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -627,7 +627,7 @@ public class Content implements Serializable {
    * Get id
    * @return id
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -652,7 +652,7 @@ public class Content implements Serializable {
    * Get inReplyToAuthorId
    * @return inReplyToAuthorId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IN_REPLY_TO_AUTHOR_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -677,7 +677,7 @@ public class Content implements Serializable {
    * Get inReplyToId
    * @return inReplyToId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IN_REPLY_TO_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -702,7 +702,7 @@ public class Content implements Serializable {
    * Get interventionId
    * @return interventionId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_INTERVENTION_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -727,7 +727,7 @@ public class Content implements Serializable {
    * Get language
    * @return language
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LANGUAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -752,7 +752,7 @@ public class Content implements Serializable {
    * Get privateMessage
    * @return privateMessage
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PRIVATE_MESSAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -777,7 +777,7 @@ public class Content implements Serializable {
    * Get published
    * @return published
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PUBLISHED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -802,7 +802,7 @@ public class Content implements Serializable {
    * is present only if the content supports rating and rating is filled.
    * @return rating
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RATING)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -827,7 +827,7 @@ public class Content implements Serializable {
    * Get remotelyDeleted
    * @return remotelyDeleted
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_REMOTELY_DELETED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -852,7 +852,7 @@ public class Content implements Serializable {
    * Get sourceId
    * @return sourceId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SOURCE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -877,7 +877,7 @@ public class Content implements Serializable {
    * Get sourceType
    * @return sourceType
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SOURCE_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -902,7 +902,7 @@ public class Content implements Serializable {
    * Get sourceUrl
    * @return sourceUrl
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SOURCE_URL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -927,7 +927,7 @@ public class Content implements Serializable {
    * Get status
    * @return status
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STATUS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -952,7 +952,7 @@ public class Content implements Serializable {
    * Get synchronizationStatus
    * @return synchronizationStatus
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SYNCHRONIZATION_STATUS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -977,7 +977,7 @@ public class Content implements Serializable {
    * Get synchronizationError
    * @return synchronizationError
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SYNCHRONIZATION_ERROR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1002,7 +1002,7 @@ public class Content implements Serializable {
    * Get threadId
    * @return threadId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_THREAD_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1027,7 +1027,7 @@ public class Content implements Serializable {
    * Get title
    * @return title
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TITLE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1052,7 +1052,7 @@ public class Content implements Serializable {
    * Get type
    * @return type
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1077,7 +1077,7 @@ public class Content implements Serializable {
    * Get updatedAt
    * @return updatedAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1110,7 +1110,7 @@ public class Content implements Serializable {
    * lists the types of structured messages that can be used to reply to this type of message
    * @return capabilitiesSupported
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CAPABILITIES_SUPPORTED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

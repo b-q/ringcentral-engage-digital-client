@@ -51,7 +51,7 @@ import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.handler.
   TimeSheet.JSON_PROPERTY_UPDATED_AT,
   TimeSheet.JSON_PROPERTY_WEDNESDAY_HOURS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-03-13T22:37:55.741968+01:00[Europe/Paris]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-08-28T22:45:26.654875700+02:00[Europe/Paris]")
 public class TimeSheet implements Serializable {
   private static final long serialVersionUID = 1L;
 
@@ -112,7 +112,7 @@ public class TimeSheet implements Serializable {
    * Get active
    * @return active
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -137,7 +137,7 @@ public class TimeSheet implements Serializable {
    * Get createdAt
    * @return createdAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -162,7 +162,7 @@ public class TimeSheet implements Serializable {
    * Get fridayHours
    * @return fridayHours
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FRIDAY_HOURS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -195,7 +195,7 @@ public class TimeSheet implements Serializable {
    * Get holidays
    * @return holidays
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HOLIDAYS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -220,7 +220,7 @@ public class TimeSheet implements Serializable {
    * Get id
    * @return id
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -245,7 +245,7 @@ public class TimeSheet implements Serializable {
    * Get label
    * @return label
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LABEL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -270,7 +270,7 @@ public class TimeSheet implements Serializable {
    * Get mondayHours
    * @return mondayHours
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MONDAY_HOURS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -295,7 +295,7 @@ public class TimeSheet implements Serializable {
    * Get saturdayHours
    * @return saturdayHours
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SATURDAY_HOURS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -328,7 +328,7 @@ public class TimeSheet implements Serializable {
    * Get sourceIds
    * @return sourceIds
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SOURCE_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -353,7 +353,7 @@ public class TimeSheet implements Serializable {
    * Get sundayHours
    * @return sundayHours
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SUNDAY_HOURS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -378,7 +378,7 @@ public class TimeSheet implements Serializable {
    * Get thursdayHours
    * @return thursdayHours
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_THURSDAY_HOURS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -403,7 +403,7 @@ public class TimeSheet implements Serializable {
    * Get timezone
    * @return timezone
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TIMEZONE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -428,7 +428,7 @@ public class TimeSheet implements Serializable {
    * Get tuesdayHours
    * @return tuesdayHours
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TUESDAY_HOURS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -453,7 +453,7 @@ public class TimeSheet implements Serializable {
    * Get updatedAt
    * @return updatedAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -478,7 +478,7 @@ public class TimeSheet implements Serializable {
    * Get wednesdayHours
    * @return wednesdayHours
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_WEDNESDAY_HOURS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

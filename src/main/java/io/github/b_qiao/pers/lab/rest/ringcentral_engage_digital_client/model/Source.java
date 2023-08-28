@@ -106,7 +106,7 @@ import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.handler.
   Source.JSON_PROPERTY_CC_BLACKLIST,
   Source.JSON_PROPERTY_POSTMARK_ENABLED
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-03-13T22:37:55.741968+01:00[Europe/Paris]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-08-28T22:45:26.654875700+02:00[Europe/Paris]")
 public class Source implements Serializable {
   private static final long serialVersionUID = 1L;
 
@@ -357,7 +357,7 @@ public class Source implements Serializable {
    * Activate/deactivate the source
    * @return active
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACTIVE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -382,7 +382,7 @@ public class Source implements Serializable {
    * Auto-detect content language (Boolean)
    * @return autoDetectContentLanguage
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AUTO_DETECT_CONTENT_LANGUAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -407,7 +407,7 @@ public class Source implements Serializable {
    * Get channelId
    * @return channelId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CHANNEL_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -432,7 +432,7 @@ public class Source implements Serializable {
    * Color of the icon: Default: 0 Blue: 1 Green: 2 Turquoise: 3 Purple: 4 Yellow: 5 Orange: 6 Red: 7 Asphalt: 8 Grey: 9
    * @return color
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COLOR)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -457,7 +457,7 @@ public class Source implements Serializable {
    * Get communityId
    * @return communityId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COMMUNITY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -482,7 +482,7 @@ public class Source implements Serializable {
    * Automatic archiving of old contents (Boolean)
    * @return contentArchiving
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CONTENT_ARCHIVING)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -507,7 +507,7 @@ public class Source implements Serializable {
    * Archive contents older than (seconds)
    * @return contentArchivingPeriod
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CONTENT_ARCHIVING_PERIOD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -540,7 +540,7 @@ public class Source implements Serializable {
    * Get contentLanguages
    * @return contentLanguages
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CONTENT_LANGUAGES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -565,7 +565,7 @@ public class Source implements Serializable {
    * Get createdAt
    * @return createdAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -598,7 +598,7 @@ public class Source implements Serializable {
    * Default categories
    * @return defaultCategoryIds
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DEFAULT_CATEGORY_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -623,7 +623,7 @@ public class Source implements Serializable {
    * Default content language
    * @return defaultContentLanguage
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DEFAULT_CONTENT_LANGUAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -648,7 +648,7 @@ public class Source implements Serializable {
    * Only on Engage Messaging sources. Boolean describing if the source is enabled on Android or not.
    * @return enableAndroid
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ENABLE_ANDROID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -673,7 +673,7 @@ public class Source implements Serializable {
    * Only on Engage Messaging sources. Boolean describing if the source is enabled on iOS or not.
    * @return enableIos
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ENABLE_IOS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -698,7 +698,7 @@ public class Source implements Serializable {
    * Only on Engage Messaging sources. Boolean describing if the source is enabled on the web or not.
    * @return enableWeb
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ENABLE_WEB)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -731,7 +731,7 @@ public class Source implements Serializable {
    * Automatic Messages. Only on sources which supports Automatic Messages.
    * @return autoResponseTriggers
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AUTO_RESPONSE_TRIGGERS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -756,7 +756,7 @@ public class Source implements Serializable {
    * Get autoResponseTriggerEnabled
    * @return autoResponseTriggerEnabled
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AUTO_RESPONSE_TRIGGER_ENABLED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -781,7 +781,7 @@ public class Source implements Serializable {
    * Get autoResponseTriggerGracePeriods
    * @return autoResponseTriggerGracePeriods
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AUTO_RESPONSE_TRIGGER_GRACE_PERIODS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -814,7 +814,7 @@ public class Source implements Serializable {
    * Signatures.
    * @return signatures
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SIGNATURES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -839,7 +839,7 @@ public class Source implements Serializable {
    * Custom sender name. Only on sources which supports a custom sender name.
    * @return fromName
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FROM_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -864,7 +864,7 @@ public class Source implements Serializable {
    * Get errorMessage
    * @return errorMessage
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ERROR_MESSAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -889,7 +889,7 @@ public class Source implements Serializable {
    * Only on WhatsApp Sources. Internal WhatsApp field that can also be found on the business manager (unique per WhatsApp account).
    * @return templateMessageNamespace
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TEMPLATE_MESSAGE_NAMESPACE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -914,7 +914,7 @@ public class Source implements Serializable {
    * Hide from statistics
    * @return hiddenFromStats
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_HIDDEN_FROM_STATS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -939,7 +939,7 @@ public class Source implements Serializable {
    * Get id
    * @return id
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -964,7 +964,7 @@ public class Source implements Serializable {
    * Priority boost of messages with intervention
    * @return interventionMessagesBoost
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_INTERVENTION_MESSAGES_BOOST)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -989,7 +989,7 @@ public class Source implements Serializable {
    * Only on Engage Messaging sources. Boolean describing if the source is livechat or not.
    * @return liveChat
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LIVE_CHAT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1014,7 +1014,7 @@ public class Source implements Serializable {
    * Source name
    * @return name
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_NAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1039,7 +1039,7 @@ public class Source implements Serializable {
    * SLA expired strategy (\&quot;max\&quot;, \&quot;half\&quot; or \&quot;base\&quot;)
    * @return slaExpiredStrategy
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SLA_EXPIRED_STRATEGY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1064,7 +1064,7 @@ public class Source implements Serializable {
    * Response time (seconds)
    * @return slaResponse
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SLA_RESPONSE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1089,7 +1089,7 @@ public class Source implements Serializable {
    * Customer SLA warning threshold (must be greater than 0 and less than 100, default value is 0).
    * @return slaThreshold
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SLA_THRESHOLD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1114,7 +1114,7 @@ public class Source implements Serializable {
    * Categories filtering strategy for Customer SLA indicator (\&quot;ignored_categories\&quot; or \&quot;selected_categories\&quot;)
    * @return slaFilteringCategoriesStrategy
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SLA_FILTERING_CATEGORIES_STRATEGY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1147,7 +1147,7 @@ public class Source implements Serializable {
    * Filtering categories for Customer SLA indicator
    * @return slaFilteringCategoryIds
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SLA_FILTERING_CATEGORY_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1172,7 +1172,7 @@ public class Source implements Serializable {
    * Default priority for interactions
    * @return defaultTaskPriority
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DEFAULT_TASK_PRIORITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1197,7 +1197,7 @@ public class Source implements Serializable {
    * Get status
    * @return status
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STATUS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1230,7 +1230,7 @@ public class Source implements Serializable {
    * Only for WhatsApp Sources, list of the available message templates that can be used to send outbound messages.
    * @return templateMessages
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TEMPLATE_MESSAGES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1263,7 +1263,7 @@ public class Source implements Serializable {
    * Business Hours (Limited to 1)
    * @return timeSheetIds
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TIME_SHEET_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1288,7 +1288,7 @@ public class Source implements Serializable {
    * Priority boost of transferred tasks
    * @return transferredTasksBoost
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TRANSFERRED_TASKS_BOOST)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1313,7 +1313,7 @@ public class Source implements Serializable {
    * Attachments security level. (\&quot;strict\&quot;, \&quot;relaxed\&quot;, or \&quot;permissive\&quot;). Strict allows images and medias. Relaxed allows images, media and documents. Permissive allows all kind of attachments
    * @return attachmentsSecurityLevel
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ATTACHMENTS_SECURITY_LEVEL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1338,7 +1338,7 @@ public class Source implements Serializable {
    * Get type
    * @return type
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1363,7 +1363,7 @@ public class Source implements Serializable {
    * Get updatedAt
    * @return updatedAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1396,7 +1396,7 @@ public class Source implements Serializable {
    * Default categories (agent messages)
    * @return userThreadDefaultCategoryIds
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_USER_THREAD_DEFAULT_CATEGORY_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1421,7 +1421,7 @@ public class Source implements Serializable {
    * Time for thread inclusion
    * @return timeForThreadInclusion
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TIME_FOR_THREAD_INCLUSION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1446,7 +1446,7 @@ public class Source implements Serializable {
    * Enable time for thread inclusion. Only on Email sources
    * @return timeForThreadInclusionEnabled
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TIME_FOR_THREAD_INCLUSION_ENABLED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1471,7 +1471,7 @@ public class Source implements Serializable {
    * Email parser (BBCode). Only on Email sources
    * @return emailParser
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_EMAIL_PARSER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1496,7 +1496,7 @@ public class Source implements Serializable {
    * Email address to synchronize. Only on Email sources
    * @return imapSmtpEmail
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IMAP_SMTP_EMAIL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1529,7 +1529,7 @@ public class Source implements Serializable {
    * Folders to synchronize. Only on Email sources
    * @return imapMailboxesToImport
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IMAP_MAILBOXES_TO_IMPORT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1554,7 +1554,7 @@ public class Source implements Serializable {
    * Folder for &#39;Sent Mail&#39;. Only on Email sources
    * @return imapMailboxUsedForSentMail
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IMAP_MAILBOX_USED_FOR_SENT_MAIL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1579,7 +1579,7 @@ public class Source implements Serializable {
    * IMAP server address. Only on Email sources
    * @return imapAddress
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IMAP_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1604,7 +1604,7 @@ public class Source implements Serializable {
    * IMAP server port. Only on Email sources
    * @return imapPort
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IMAP_PORT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1629,7 +1629,7 @@ public class Source implements Serializable {
    * IMAP username. Only on Email sources
    * @return imapUsername
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IMAP_USERNAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1654,7 +1654,7 @@ public class Source implements Serializable {
    * Use SSL/TLS protocol to establish secure IMAP connection. Only on Email sources
    * @return imapUseSslTls
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IMAP_USE_SSL_TLS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1679,7 +1679,7 @@ public class Source implements Serializable {
    * Use STARTTLS protocol to establish secure IMAP connection. Only on Email sources
    * @return imapUseStartTls
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IMAP_USE_START_TLS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1704,7 +1704,7 @@ public class Source implements Serializable {
    * IMAP Authentication type (\&quot;basic\&quot; or \&quot;microsoft_identity_platform\&quot;). Only on Email sources
    * @return imapAuthenticationType
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IMAP_AUTHENTICATION_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1729,7 +1729,7 @@ public class Source implements Serializable {
    * IMAP SSL verification mode. (\&quot;NONE\&quot;, \&quot;PEER\&quot;, \&quot;CLIENT_ONCE\&quot; or \&quot;FAIL_IF_NO_PEER_CERT\&quot;). Only on Email sources
    * @return imapSslVerifyMode
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IMAP_SSL_VERIFY_MODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1754,7 +1754,7 @@ public class Source implements Serializable {
    * SMTP server address. Only on Email sources
    * @return smtpAddress
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SMTP_ADDRESS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1779,7 +1779,7 @@ public class Source implements Serializable {
    * SMTP server port. Only on Email sources
    * @return smtpPort
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SMTP_PORT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1804,7 +1804,7 @@ public class Source implements Serializable {
    * SMTP username. Only on Email sources
    * @return smtpUsername
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SMTP_USERNAME)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1829,7 +1829,7 @@ public class Source implements Serializable {
    * Use SSL/TLS protocol to establish secure SMTP connection. Only on Email sources
    * @return smtpUseSslTls
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SMTP_USE_SSL_TLS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1854,7 +1854,7 @@ public class Source implements Serializable {
    * Use STARTTLS protocol to establish secure SMTP connection. Only on Email sources
    * @return smtpUseStartTls
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SMTP_USE_START_TLS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1879,7 +1879,7 @@ public class Source implements Serializable {
    * SMTP Authentication type (\&quot;basic\&quot; or \&quot;microsoft_identity_platform\&quot;). Only on Email sources
    * @return smtpAuthenticationType
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SMTP_AUTHENTICATION_TYPE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1904,7 +1904,7 @@ public class Source implements Serializable {
    * SMTP SSL verification mode (\&quot;NONE\&quot;, \&quot;PEER\&quot;, \&quot;CLIENT_ONCE\&quot; or \&quot;FAIL_IF_NO_PEER_CERT\&quot;). Only on Email sources
    * @return smtpSslVerifyMode
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SMTP_SSL_VERIFY_MODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1929,7 +1929,7 @@ public class Source implements Serializable {
    * Used to identify HELO/EHLO when connecting to the SMTP server. Only on Email sources
    * @return smtpHeloDomain
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SMTP_HELO_DOMAIN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1954,7 +1954,7 @@ public class Source implements Serializable {
    * Threading_heuristics. Only on Email sources
    * @return threadingHeuristics
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_THREADING_HEURISTICS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1979,7 +1979,7 @@ public class Source implements Serializable {
    * Spam threshold (\&quot;disabled\&quot;, \&quot;relaxed\&quot;, or \&quot;strict\&quot;). Only on Email sources
    * @return spamAssassinLevel
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SPAM_ASSASSIN_LEVEL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2004,7 +2004,7 @@ public class Source implements Serializable {
    * Whitelisted emails. All emails received from this address won&#39;t be threaded and can be associated with an anonymous identity or the Reply-To, if there is one. To be filled when implementing a form. Only on Email sources
    * @return whitelistedEmails
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_WHITELISTED_EMAILS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2037,7 +2037,7 @@ public class Source implements Serializable {
    * Exclude from TO/CC. Only on Email sources
    * @return ccBlacklist
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CC_BLACKLIST)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2062,7 +2062,7 @@ public class Source implements Serializable {
    * Enable Postmark. Only on Email sources
    * @return postmarkEnabled
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_POSTMARK_ENABLED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
