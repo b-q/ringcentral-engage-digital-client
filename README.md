@@ -16,7 +16,7 @@ REST API for RingCentral Engage Digital
 
 Building the API client library requires:
 
-1. Java 1.8+
+1. Java 17+
 2. Maven/Gradle
 
 ## Installation
