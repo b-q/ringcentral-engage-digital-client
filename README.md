@@ -4,7 +4,7 @@ RingCentral Engage Digital API
 
 - API version: 1.0.1
 
-- Build date: 2023-03-13T22:37:55.741968+01:00[Europe/Paris]
+- Build date: 2023-08-28T22:45:26.654875700+02:00[Europe/Paris]
 
 REST API for RingCentral Engage Digital
 
@@ -16,8 +16,8 @@ REST API for RingCentral Engage Digital
 
 Building the API client library requires:
 
-1. Java 1.8+
-2. Maven (3.8.3+)/Gradle (7.2+)
+1. Java 17+
+2. Maven/Gradle
 
 ## Installation
 
@@ -75,31 +75,6 @@ Then manually install the following JARs:
 
 - `target/ringcentral-engage-digital-client-1.0-SNAPSHOT.jar`
 - `target/lib/*.jar`
-
-## Usage
-
-To add a HTTP proxy for the API client, use `ClientConfig`:
-```java
-
-import org.glassfish.jersey.apache.connector.ApacheConnectorProvider;
-import org.glassfish.jersey.client.ClientConfig;
-import org.glassfish.jersey.client.ClientProperties;
-import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.handler.*;
-import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.api.AgentStatusApi;
-
-...
-
-ApiClient defaultClient = Configuration.getDefaultApiClient();
-ClientConfig clientConfig = defaultClient.getClientConfig();
-clientConfig.connectorProvider(new ApacheConnectorProvider());
-clientConfig.property(ClientProperties.PROXY_URI, "http://proxy_url_here");
-clientConfig.property(ClientProperties.PROXY_USERNAME, "proxy_username");
-clientConfig.property(ClientProperties.PROXY_PASSWORD, "proxy_password");
-defaultClient.setClientConfig(clientConfig);
-
-AgentStatusApi apiInstance = new AgentStatusApi(defaultClient);
-
-```
 
 ## Getting Started
 

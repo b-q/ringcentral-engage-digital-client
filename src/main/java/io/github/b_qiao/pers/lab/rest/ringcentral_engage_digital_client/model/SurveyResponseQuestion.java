@@ -38,7 +38,7 @@ import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.handler.
   SurveyResponseQuestion.JSON_PROPERTY_TEXT,
   SurveyResponseQuestion.JSON_PROPERTY_REPLIES
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-03-13T22:37:55.741968+01:00[Europe/Paris]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-08-28T22:45:26.654875700+02:00[Europe/Paris]")
 public class SurveyResponseQuestion implements Serializable {
   private static final long serialVersionUID = 1L;
 
@@ -63,7 +63,7 @@ public class SurveyResponseQuestion implements Serializable {
    * The survey provider&#39;s id for this question.
    * @return foreignId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FOREIGN_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -88,7 +88,7 @@ public class SurveyResponseQuestion implements Serializable {
    * The question&#39;s body.
    * @return text
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_TEXT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -121,7 +121,7 @@ public class SurveyResponseQuestion implements Serializable {
    * The question&#39;s replies. Multiple choices questions can have more than 1 element.
    * @return replies
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_REPLIES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

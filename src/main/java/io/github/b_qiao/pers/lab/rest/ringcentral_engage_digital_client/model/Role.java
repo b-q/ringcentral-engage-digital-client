@@ -106,7 +106,7 @@ import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.handler.
   Role.JSON_PROPERTY_USE_COBROWSING,
   Role.JSON_PROPERTY_USE_EMOJI
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-03-13T22:37:55.741968+01:00[Europe/Paris]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-08-28T22:45:26.654875700+02:00[Europe/Paris]")
 public class Role implements Serializable {
   private static final long serialVersionUID = 1L;
 
@@ -341,7 +341,7 @@ public class Role implements Serializable {
    * Get accessHelpCenter
    * @return accessHelpCenter
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACCESS_HELP_CENTER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -366,7 +366,7 @@ public class Role implements Serializable {
    * Get accessPreviousMessages
    * @return accessPreviousMessages
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACCESS_PREVIOUS_MESSAGES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -391,7 +391,7 @@ public class Role implements Serializable {
    * Get accessPullMode
    * @return accessPullMode
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ACCESS_PULL_MODE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -416,7 +416,7 @@ public class Role implements Serializable {
    * Get adminStampAnswer
    * @return adminStampAnswer
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ADMIN_STAMP_ANSWER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -441,7 +441,7 @@ public class Role implements Serializable {
    * Get anonymizeIdentity
    * @return anonymizeIdentity
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ANONYMIZE_IDENTITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -466,7 +466,7 @@ public class Role implements Serializable {
    * Get approveContent
    * @return approveContent
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_APPROVE_CONTENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -491,7 +491,7 @@ public class Role implements Serializable {
    * Get askAnExpert
    * @return askAnExpert
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ASK_AN_EXPERT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -516,7 +516,7 @@ public class Role implements Serializable {
    * Get assignIntervention
    * @return assignIntervention
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ASSIGN_INTERVENTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -541,7 +541,7 @@ public class Role implements Serializable {
    * Get authorBlockContent
    * @return authorBlockContent
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_AUTHOR_BLOCK_CONTENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -566,7 +566,7 @@ public class Role implements Serializable {
    * Get closeContentThread
    * @return closeContentThread
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CLOSE_CONTENT_THREAD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -591,7 +591,7 @@ public class Role implements Serializable {
    * Get createAndDestroyExtension
    * @return createAndDestroyExtension
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CREATE_AND_DESTROY_EXTENSION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -616,7 +616,7 @@ public class Role implements Serializable {
    * Get createCommunity
    * @return createCommunity
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CREATE_COMMUNITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -641,7 +641,7 @@ public class Role implements Serializable {
    * Get createContentSource
    * @return createContentSource
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CREATE_CONTENT_SOURCE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -666,7 +666,7 @@ public class Role implements Serializable {
    * Get createUser
    * @return createUser
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CREATE_USER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -691,7 +691,7 @@ public class Role implements Serializable {
    * Get createdAt
    * @return createdAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -716,7 +716,7 @@ public class Role implements Serializable {
    * Get delayExportContent
    * @return delayExportContent
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DELAY_EXPORT_CONTENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -741,7 +741,7 @@ public class Role implements Serializable {
    * Get deleteContentThread
    * @return deleteContentThread
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DELETE_CONTENT_THREAD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -766,7 +766,7 @@ public class Role implements Serializable {
    * Get escalateToVideo
    * @return escalateToVideo
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ESCALATE_TO_VIDEO)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -791,7 +791,7 @@ public class Role implements Serializable {
    * Get exportIdentity
    * @return exportIdentity
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_EXPORT_IDENTITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -816,7 +816,7 @@ public class Role implements Serializable {
    * Get id
    * @return id
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -841,7 +841,7 @@ public class Role implements Serializable {
    * Get impersonateUser
    * @return impersonateUser
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IMPERSONATE_USER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -866,7 +866,7 @@ public class Role implements Serializable {
    * Get inviteUser
    * @return inviteUser
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_INVITE_USER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -891,7 +891,7 @@ public class Role implements Serializable {
    * Get label
    * @return label
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LABEL)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -916,7 +916,7 @@ public class Role implements Serializable {
    * Get lockIdentity
    * @return lockIdentity
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LOCK_IDENTITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -941,7 +941,7 @@ public class Role implements Serializable {
    * Get manageApiAccessTokens
    * @return manageApiAccessTokens
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_API_ACCESS_TOKENS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -966,7 +966,7 @@ public class Role implements Serializable {
    * Get manageAppSdkApplications
    * @return manageAppSdkApplications
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_APP_SDK_APPLICATIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -991,7 +991,7 @@ public class Role implements Serializable {
    * Get manageCategories
    * @return manageCategories
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_CATEGORIES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1016,7 +1016,7 @@ public class Role implements Serializable {
    * Get manageChat
    * @return manageChat
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_CHAT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1041,7 +1041,7 @@ public class Role implements Serializable {
    * Get manageCustomFields
    * @return manageCustomFields
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1066,7 +1066,7 @@ public class Role implements Serializable {
    * Get manageCustomNotifications
    * @return manageCustomNotifications
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_CUSTOM_NOTIFICATIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1091,7 +1091,7 @@ public class Role implements Serializable {
    * Get manageEmailsTemplates
    * @return manageEmailsTemplates
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_EMAILS_TEMPLATES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1116,7 +1116,7 @@ public class Role implements Serializable {
    * Get manageFolders
    * @return manageFolders
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_FOLDERS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1141,7 +1141,7 @@ public class Role implements Serializable {
    * Get manageIce
    * @return manageIce
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_ICE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1166,7 +1166,7 @@ public class Role implements Serializable {
    * Get manageIdentities
    * @return manageIdentities
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_IDENTITIES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1191,7 +1191,7 @@ public class Role implements Serializable {
    * Get manageMessaging
    * @return manageMessaging
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_MESSAGING)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1216,7 +1216,7 @@ public class Role implements Serializable {
    * Get manageOwnNotifications
    * @return manageOwnNotifications
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_OWN_NOTIFICATIONS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1241,7 +1241,7 @@ public class Role implements Serializable {
    * Get manageReplyAssistant
    * @return manageReplyAssistant
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_REPLY_ASSISTANT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1266,7 +1266,7 @@ public class Role implements Serializable {
    * Get manageRoles
    * @return manageRoles
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_ROLES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1291,7 +1291,7 @@ public class Role implements Serializable {
    * Get manageRulesEngineRules
    * @return manageRulesEngineRules
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_RULES_ENGINE_RULES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1316,7 +1316,7 @@ public class Role implements Serializable {
    * Get manageTags
    * @return manageTags
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_TAGS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1341,7 +1341,7 @@ public class Role implements Serializable {
    * Get manageTeams
    * @return manageTeams
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_TEAMS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1366,7 +1366,7 @@ public class Role implements Serializable {
    * Get manageTopologies
    * @return manageTopologies
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_TOPOLOGIES)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1391,7 +1391,7 @@ public class Role implements Serializable {
    * Get manageUsersOfMyTeams
    * @return manageUsersOfMyTeams
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MANAGE_USERS_OF_MY_TEAMS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1416,7 +1416,7 @@ public class Role implements Serializable {
    * Get monitorTasks
    * @return monitorTasks
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MONITOR_TASKS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1441,7 +1441,7 @@ public class Role implements Serializable {
    * Get monitorTeamTasks
    * @return monitorTeamTasks
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MONITOR_TEAM_TASKS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1466,7 +1466,7 @@ public class Role implements Serializable {
    * Get muteContent
    * @return muteContent
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_MUTE_CONTENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1491,7 +1491,7 @@ public class Role implements Serializable {
    * Get openContentThread
    * @return openContentThread
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_OPEN_CONTENT_THREAD)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1516,7 +1516,7 @@ public class Role implements Serializable {
    * Get publishContent
    * @return publishContent
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_PUBLISH_CONTENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1541,7 +1541,7 @@ public class Role implements Serializable {
    * Get readCommunity
    * @return readCommunity
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_READ_COMMUNITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1566,7 +1566,7 @@ public class Role implements Serializable {
    * Get readContentSource
    * @return readContentSource
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_READ_CONTENT_SOURCE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1591,7 +1591,7 @@ public class Role implements Serializable {
    * Get readEvent
    * @return readEvent
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_READ_EVENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1616,7 +1616,7 @@ public class Role implements Serializable {
    * Get readExport
    * @return readExport
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_READ_EXPORT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1641,7 +1641,7 @@ public class Role implements Serializable {
    * Get readIdentity
    * @return readIdentity
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_READ_IDENTITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1666,7 +1666,7 @@ public class Role implements Serializable {
    * Get readOwnStats
    * @return readOwnStats
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_READ_OWN_STATS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1691,7 +1691,7 @@ public class Role implements Serializable {
    * Get readPresence
    * @return readPresence
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_READ_PRESENCE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1716,7 +1716,7 @@ public class Role implements Serializable {
    * Get readStats
    * @return readStats
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_READ_STATS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1741,7 +1741,7 @@ public class Role implements Serializable {
    * Get readUser
    * @return readUser
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_READ_USER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1766,7 +1766,7 @@ public class Role implements Serializable {
    * Get receiveTasks
    * @return receiveTasks
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_RECEIVE_TASKS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1791,7 +1791,7 @@ public class Role implements Serializable {
    * Get replyWithAssistant
    * @return replyWithAssistant
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_REPLY_WITH_ASSISTANT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1816,7 +1816,7 @@ public class Role implements Serializable {
    * Get searchContents
    * @return searchContents
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SEARCH_CONTENTS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1841,7 +1841,7 @@ public class Role implements Serializable {
    * Get searchEvent
    * @return searchEvent
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SEARCH_EVENT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1866,7 +1866,7 @@ public class Role implements Serializable {
    * Get updateCommunity
    * @return updateCommunity
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATE_COMMUNITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1891,7 +1891,7 @@ public class Role implements Serializable {
    * Get updateContentSource
    * @return updateContentSource
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATE_CONTENT_SOURCE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1916,7 +1916,7 @@ public class Role implements Serializable {
    * Get updateExtension
    * @return updateExtension
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATE_EXTENSION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1941,7 +1941,7 @@ public class Role implements Serializable {
    * Get updateIdentity
    * @return updateIdentity
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATE_IDENTITY)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1966,7 +1966,7 @@ public class Role implements Serializable {
    * Get updateIntervention
    * @return updateIntervention
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATE_INTERVENTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -1991,7 +1991,7 @@ public class Role implements Serializable {
    * Get updateOwnIntervention
    * @return updateOwnIntervention
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATE_OWN_INTERVENTION)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2016,7 +2016,7 @@ public class Role implements Serializable {
    * Get updateSettings
    * @return updateSettings
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATE_SETTINGS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2041,7 +2041,7 @@ public class Role implements Serializable {
    * Get updateTimeSheet
    * @return updateTimeSheet
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATE_TIME_SHEET)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2066,7 +2066,7 @@ public class Role implements Serializable {
    * Get updateUser
    * @return updateUser
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATE_USER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2091,7 +2091,7 @@ public class Role implements Serializable {
    * Get updatedAt
    * @return updatedAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2116,7 +2116,7 @@ public class Role implements Serializable {
    * Get useCobrowsing
    * @return useCobrowsing
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_USE_COBROWSING)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -2141,7 +2141,7 @@ public class Role implements Serializable {
    * Get useEmoji
    * @return useEmoji
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_USE_EMOJI)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

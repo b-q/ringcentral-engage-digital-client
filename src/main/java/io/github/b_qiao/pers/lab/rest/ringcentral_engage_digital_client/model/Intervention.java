@@ -64,7 +64,7 @@ import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.handler.
   Intervention.JSON_PROPERTY_SURVEY_RESPONSE_ID,
   Intervention.JSON_PROPERTY_SURVEY_ID
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-03-13T22:37:55.741968+01:00[Europe/Paris]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-08-28T22:45:26.654875700+02:00[Europe/Paris]")
 public class Intervention implements Serializable {
   private static final long serialVersionUID = 1L;
 
@@ -175,7 +175,7 @@ public class Intervention implements Serializable {
    * Get categoryIds
    * @return categoryIds
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CATEGORY_IDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -200,7 +200,7 @@ public class Intervention implements Serializable {
    * Get closed
    * @return closed
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CLOSED)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -225,7 +225,7 @@ public class Intervention implements Serializable {
    * Get closedAt
    * @return closedAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CLOSED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -250,7 +250,7 @@ public class Intervention implements Serializable {
    * Get commentsCount
    * @return commentsCount
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_COMMENTS_COUNT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -275,7 +275,7 @@ public class Intervention implements Serializable {
    * Get contentId
    * @return contentId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CONTENT_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -300,7 +300,7 @@ public class Intervention implements Serializable {
    * Get createdAt
    * @return createdAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CREATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -325,7 +325,7 @@ public class Intervention implements Serializable {
    * Get customFields
    * @return customFields
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_CUSTOM_FIELDS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -350,7 +350,7 @@ public class Intervention implements Serializable {
    * Get deferredAt
    * @return deferredAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_DEFERRED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -375,7 +375,7 @@ public class Intervention implements Serializable {
    * Get firstUserReplyId
    * @return firstUserReplyId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FIRST_USER_REPLY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -400,7 +400,7 @@ public class Intervention implements Serializable {
    * Get firstUserReplyIn
    * @return firstUserReplyIn
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FIRST_USER_REPLY_IN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -425,7 +425,7 @@ public class Intervention implements Serializable {
    * Get firstUserReplyInBh
    * @return firstUserReplyInBh
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FIRST_USER_REPLY_IN_BH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -450,7 +450,7 @@ public class Intervention implements Serializable {
    * Get id
    * @return id
   **/
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   @JsonProperty(JSON_PROPERTY_ID)
   @JsonInclude(value = JsonInclude.Include.ALWAYS)
 
@@ -475,7 +475,7 @@ public class Intervention implements Serializable {
    * Get identityId
    * @return identityId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_IDENTITY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -500,7 +500,7 @@ public class Intervention implements Serializable {
    * Get lastUserReplyIn
    * @return lastUserReplyIn
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LAST_USER_REPLY_IN)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -525,7 +525,7 @@ public class Intervention implements Serializable {
    * Get lastUserReplyInBh
    * @return lastUserReplyInBh
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_LAST_USER_REPLY_IN_BH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -550,7 +550,7 @@ public class Intervention implements Serializable {
    * Get sourceId
    * @return sourceId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SOURCE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -575,7 +575,7 @@ public class Intervention implements Serializable {
    * Get status
    * @return status
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_STATUS)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -600,7 +600,7 @@ public class Intervention implements Serializable {
    * Get threadId
    * @return threadId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_THREAD_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -625,7 +625,7 @@ public class Intervention implements Serializable {
    * Get updatedAt
    * @return updatedAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_UPDATED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -650,7 +650,7 @@ public class Intervention implements Serializable {
    * Get userId
    * @return userId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_USER_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -675,7 +675,7 @@ public class Intervention implements Serializable {
    * Get userRepliesCount
    * @return userRepliesCount
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_USER_REPLIES_COUNT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -700,7 +700,7 @@ public class Intervention implements Serializable {
    * Get userReplyInAverage
    * @return userReplyInAverage
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_USER_REPLY_IN_AVERAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -725,7 +725,7 @@ public class Intervention implements Serializable {
    * Get userReplyInAverageBh
    * @return userReplyInAverageBh
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_USER_REPLY_IN_AVERAGE_BH)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -750,7 +750,7 @@ public class Intervention implements Serializable {
    * Get userReplyInAverageCount
    * @return userReplyInAverageCount
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_USER_REPLY_IN_AVERAGE_COUNT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -775,7 +775,7 @@ public class Intervention implements Serializable {
    * Satisfaction grade. Only present when customer satisfaction extension is enabled.
    * @return satisfactionGrade
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SATISFACTION_GRADE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -800,7 +800,7 @@ public class Intervention implements Serializable {
    * Date and time when customer answered the survey. Only present when customer satisfaction extension is enabled.
    * @return satisfactionAnsweredAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SATISFACTION_ANSWERED_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -825,7 +825,7 @@ public class Intervention implements Serializable {
    * Date and time when the satisfaction survey was sent to customer. Only present when customer satisfaction extension is enabled.
    * @return satisfactionSentAt
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SATISFACTION_SENT_AT)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -850,7 +850,7 @@ public class Intervention implements Serializable {
    * ED internal ID for customer response to satisfaction survey. Only present when customer satisfaction extension is enabled.
    * @return surveyResponseId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SURVEY_RESPONSE_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -875,7 +875,7 @@ public class Intervention implements Serializable {
    * ED internal ID for satisfaction survey. Only present when customer satisfaction extension is enabled.
    * @return surveyId
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_SURVEY_ID)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 

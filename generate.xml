@@ -9,8 +9,8 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <openapi-generator-maven-plugin.version>6.3.0</openapi-generator-maven-plugin.version>
     </properties>
@@ -35,14 +35,14 @@
                             <invokerPackage>io.github.b-qiao.pers.lab.rest.ringcentral-engage-digital-client.handler</invokerPackage>
                             <modelPackage>io.github.b-qiao.pers.lab.rest.ringcentral-engage-digital-client.model</modelPackage>
                             <skipValidateSpec>false</skipValidateSpec>
-                            <library>native</library>
+                            <library>jersey3</library>
                             <groupId>${project.groupId}</groupId>
                             <artifactId>${project.artifactId}</artifactId>
                             <artifactVersion>${project.version}</artifactVersion>
                             <configOptions>
                                 <sourceFolder>src/main/java</sourceFolder>
                                 <serializableModel>true</serializableModel>
-                                <serializationLibrary>jsonb</serializationLibrary>
+                                <serializationLibrary>jackson</serializationLibrary>
                                 <dateLibrary>java8</dateLibrary>
                                 <developerEmail>3427599+b-q@users.noreply.github.com</developerEmail>
                                 <developerName>b-qiao</developerName>
@@ -56,7 +56,6 @@
                                 <artifactUrl>https://github.com/b-q/ringcentral-engage-digital-client</artifactUrl>
                                 <artifactDescription>RingCentral Engage Digital Java Rest Client Generated From Openapi Description</artifactDescription>
                             </configOptions>
-                            <library>jersey2</library>
                             <output>${project.basedir}</output>
                         </configuration>
                     </execution>

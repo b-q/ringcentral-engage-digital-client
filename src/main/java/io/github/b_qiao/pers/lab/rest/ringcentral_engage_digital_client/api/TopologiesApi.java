@@ -6,7 +6,7 @@ import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.handler.
 import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.handler.Configuration;
 import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.handler.Pair;
 
-import javax.ws.rs.core.GenericType;
+import jakarta.ws.rs.core.GenericType;
 
 import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.model.GetAllTopologiesResponse;
 import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.model.Topology;
@@ -16,7 +16,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-03-13T22:37:55.741968+01:00[Europe/Paris]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-08-28T22:45:26.654875700+02:00[Europe/Paris]")
 public class TopologiesApi {
   private ApiClient apiClient;
 

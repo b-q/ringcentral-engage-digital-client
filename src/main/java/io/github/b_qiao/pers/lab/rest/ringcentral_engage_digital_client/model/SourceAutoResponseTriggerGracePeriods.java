@@ -35,7 +35,7 @@ import io.github.b_qiao.pers.lab.rest.ringcentral_engage_digital_client.handler.
   SourceAutoResponseTriggerGracePeriods.JSON_PROPERTY_OUT_OF_OFFICE_HOURS_MESSAGE
 })
 @JsonTypeName("Source_auto_response_trigger_grace_periods")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-03-13T22:37:55.741968+01:00[Europe/Paris]")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2023-08-28T22:45:26.654875700+02:00[Europe/Paris]")
 public class SourceAutoResponseTriggerGracePeriods implements Serializable {
   private static final long serialVersionUID = 1L;
 
@@ -57,7 +57,7 @@ public class SourceAutoResponseTriggerGracePeriods implements Serializable {
    * Get firstMessageFromUser
    * @return firstMessageFromUser
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_FIRST_MESSAGE_FROM_USER)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
@@ -82,7 +82,7 @@ public class SourceAutoResponseTriggerGracePeriods implements Serializable {
    * Get outOfOfficeHoursMessage
    * @return outOfOfficeHoursMessage
   **/
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   @JsonProperty(JSON_PROPERTY_OUT_OF_OFFICE_HOURS_MESSAGE)
   @JsonInclude(value = JsonInclude.Include.USE_DEFAULTS)
 
